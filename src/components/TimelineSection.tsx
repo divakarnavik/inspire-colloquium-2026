@@ -41,7 +41,7 @@ const stages: Stage[] = [
     numeral: '3',
     title: 'Payment Confirmation',
     date: 'Deadline: 2nd Oct 2026 (12 Noon)',
-    note: 'Payment Only for Selected Teams Only selected teams are required to pay the participation fee of ₹300.',
+    note: 'Payment Only for Selected Teams: Only selected teams are required to pay the participation fee of ₹300.',
     venue: 'Online Payment via Our Official Payment Portal',
     summary:
       'Final registration fee submission and slot confirmation exclusively for shortlisted teams selected to participate in the on-campus competition.',
@@ -405,9 +405,9 @@ const TimelineSection = () => {
                       </p>
 
                       {stage.note && (
-                        <span className="text-xs sm:text-sm font-semibold px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-300">
+                        <div className="w-fit max-w-full text-xs sm:text-sm font-semibold px-3.5 py-1.5 rounded-xl bg-amber-100 text-amber-900 border border-amber-300/80 shadow-xs leading-relaxed">
                           {stage.note}
-                        </span>
+                        </div>
                       )}
 
                       {stage.time && (

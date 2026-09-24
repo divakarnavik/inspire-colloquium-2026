@@ -127,14 +127,23 @@ const Navbar = () => {
     setActiveSection(id);
 
     const scrollToDestination = () => {
+      const lenis = (window as any).lenis;
       if (id === 'contact') {
-        window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+        if (lenis) {
+          lenis.scrollTo('bottom', { duration: 1.2 });
+        } else {
+          window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'smooth' });
+        }
         return;
       }
       const target = document.querySelector(href);
       if (target) {
-        const y = target.getBoundingClientRect().top + window.scrollY - 55;
-        window.scrollTo({ top: y, behavior: 'smooth' });
+        if (lenis) {
+          lenis.scrollTo(target, { offset: -65, duration: 1.2 });
+        } else {
+          const y = target.getBoundingClientRect().top + window.scrollY - 55;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
       }
     };
 
