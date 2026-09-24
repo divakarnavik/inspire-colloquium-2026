@@ -543,7 +543,7 @@ const TracksSection = () => {
       id="tracks"
       className="py-16 md:py-24 relative overflow-hidden bg-cover bg-center border-t border-b border-black/10 text-white scroll-mt-[65px] w-full max-w-full"
       style={{
-        backgroundImage: "url('/backgrounds/bg-cyan.webp')",
+        backgroundImage: "url('/backgrounds/bg-cyan-n.jpg')",
         backgroundAttachment: 'fixed',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -552,7 +552,7 @@ const TracksSection = () => {
     >
       {/* Tactile Fine Grain Texture Overlay */}
       <div
-        className="absolute inset-0 pointer-events-none  opacity-60 z-0"
+        className="absolute inset-0 pointer-events-none opacity-25 z-0"
         style={{
           backgroundImage: "url('/backgrounds/noise-texture.svg')",
           backgroundRepeat: 'repeat',

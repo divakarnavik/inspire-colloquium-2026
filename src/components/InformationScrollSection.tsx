@@ -360,12 +360,12 @@ const InformationScrollSection = () => {
           <div
             className="w-screen h-full flex-shrink-0 flex items-center justify-center text-white px-4 sm:px-8 lg:px-12 xl:px-16 pt-14 lg:pt-16 pb-8 lg:pb-10 relative overflow-hidden bg-cover bg-center"
             style={{
-              backgroundImage: "url('/backgrounds/bg-blue.webp')",
+              backgroundImage: "url('/backgrounds/bg-blue-n.jpg')",
             }}
           >
             {/* Tactile Fine Grain Texture Overlay */}
             <div
-              className="absolute inset-0 pointer-events-none  opacity-60 z-0"
+              className="absolute inset-0 pointer-events-none opacity-25 z-0"
               style={{
                 backgroundImage: "url('/backgrounds/noise-texture.svg')",
                 backgroundRepeat: 'repeat',
@@ -557,21 +557,27 @@ const InformationScrollSection = () => {
           {/* PANEL 1: OUR BRANCH (Deep Forest Teal/Emerald with Archival Monograph) */}
           {/* ========================================================================= */}
           <div
-            className="w-screen h-full flex-shrink-0 flex items-center justify-center text-white px-4 sm:px-8 lg:px-12 xl:px-16 pt-14 lg:pt-16 pb-8 lg:pb-10 relative overflow-hidden bg-cover bg-center"
-            style={{
-              backgroundImage: "url('/backgrounds/bg-teal.webp')",
-            }}
+            className="w-screen h-full flex-shrink-0 flex items-center justify-center text-white px-4 sm:px-8 lg:px-12 xl:px-16 pt-14 lg:pt-16 pb-8 lg:pb-10 relative overflow-hidden bg-[#062321]"
           >
+            {/* Rich High-Fidelity Background */}
+            <div
+              className="absolute inset-0 bg-cover bg-center contrast-[1.08] saturate-[1.18] brightness-[0.98]"
+              style={{
+                backgroundImage: "url('/backgrounds/bg-teal-n.jpg')",
+              }}
+            />
+            {/* Subtle Tonal Depth Overlay */}
+            <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-[#021816]/30 via-transparent to-[#021816]/40 z-0" />
             {/* Tactile Fine Grain Texture Overlay */}
             <div
-              className="absolute inset-0 pointer-events-none  opacity-60 z-0"
+              className="absolute inset-0 pointer-events-none opacity-20 z-0"
               style={{
                 backgroundImage: "url('/backgrounds/noise-texture.svg')",
                 backgroundRepeat: 'repeat',
               }}
             />
             {/* Vignette */}
-            <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-black/40 via-transparent to-black/30 z-0" />
+            <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-black/45 via-transparent to-black/35 z-0" />
 
             {/* Archival Watermark */}
             <div className="absolute right-8 top-1/2 -translate-y-1/2 text-[14vw] font-serif font-black text-white/[0.02] select-none pointer-events-none tracking-tighter leading-none">
@@ -734,21 +740,27 @@ const InformationScrollSection = () => {
           {/* PANEL 2: IEEE SLRTCE STUDENT BRANCH (Deep Indigo/Violet with Philatelic Seal) */}
           {/* ========================================================================= */}
           <div
-            className="w-screen h-full flex-shrink-0 flex items-center justify-center text-white px-4 sm:px-8 lg:px-12 xl:px-16 pt-14 lg:pt-16 pb-8 lg:pb-10 relative overflow-hidden bg-cover bg-center"
-            style={{
-              backgroundImage: "url('/backgrounds/bg-purple.webp')",
-            }}
+            className="w-screen h-full flex-shrink-0 flex items-center justify-center text-white px-4 sm:px-8 lg:px-12 xl:px-16 pt-14 lg:pt-16 pb-8 lg:pb-10 relative overflow-hidden bg-[#160d2b]"
           >
+            {/* Rich High-Fidelity Background */}
+            <div
+              className="absolute inset-0 bg-cover bg-center contrast-[1.08] saturate-[1.18] brightness-[0.98]"
+              style={{
+                backgroundImage: "url('/backgrounds/bg-purple-n.jpg')",
+              }}
+            />
+            {/* Subtle Tonal Depth Overlay */}
+            <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-[#1b0a33]/30 via-transparent to-[#100520]/40 z-0" />
             {/* Tactile Fine Grain Texture Overlay */}
             <div
-              className="absolute inset-0 pointer-events-none  opacity-60 z-0"
+              className="absolute inset-0 pointer-events-none opacity-20 z-0"
               style={{
                 backgroundImage: "url('/backgrounds/noise-texture.svg')",
                 backgroundRepeat: 'repeat',
               }}
             />
             {/* Vignette */}
-            <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-black/40 via-transparent to-black/30 z-0" />
+            <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-black/45 via-transparent to-black/35 z-0" />
 
             {/* Archival Watermark */}
             <div className="absolute right-8 top-1/2 -translate-y-1/2 text-[14vw] font-serif font-black text-white/[0.02] select-none pointer-events-none tracking-tighter leading-none">

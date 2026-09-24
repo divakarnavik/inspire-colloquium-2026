@@ -89,7 +89,7 @@ const Footer = ({ children }: FooterProps) => {
     >
       {/* Tactile Fine Grain Texture Overlay */}
       <div 
-        className="absolute inset-0 pointer-events-none  opacity-60 z-0"
+        className="absolute inset-0 pointer-events-none opacity-25 z-0"
         style={{
           backgroundImage: "url('/backgrounds/noise-texture.svg')",
           backgroundRepeat: 'repeat',

@@ -178,11 +178,11 @@ const PrizePoolSection = () => {
       id="awards"
       className="pt-16 md:pt-24 pb-2 md:pb-4 relative overflow-hidden bg-cover bg-center border-t border-b border-rose-950/40 text-white scroll-mt-[65px] w-full max-w-full flex flex-col"
       style={{
-        backgroundImage: "url('/backgrounds/bg-maroon.webp')",
+        backgroundImage: "url('/backgrounds/bg-maroon-n.jpg')",
         backgroundAttachment: 'fixed',
       }}
     >
-      <div className="absolute inset-0 pointer-events-none  opacity-60 z-0" style={{ backgroundImage: "url('/backgrounds/noise-texture.svg')", backgroundRepeat: 'repeat' }} />
+      <div className="absolute inset-0 pointer-events-none opacity-25 z-0" style={{ backgroundImage: "url('/backgrounds/noise-texture.svg')", backgroundRepeat: 'repeat' }} />
       <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-black/25 via-transparent to-black/35 z-0" />
 
       {/* Interactive Hanging Lamp from Ceiling - Zero Gap */}

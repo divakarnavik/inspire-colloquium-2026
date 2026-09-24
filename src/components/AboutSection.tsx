@@ -5,7 +5,7 @@ const AboutSection = () => {
       id="about"
       className="relative z-10 w-full max-w-full min-h-[calc(100vh-65px)] flex items-center justify-center py-10 sm:py-18 md:py-28 lg:py-36 px-2.5 sm:px-6 md:px-10 bg-cover bg-center overflow-hidden border-t border-b border-amber-950/20 scroll-mt-[65px] bg-scroll md:bg-fixed"
       style={{
-        backgroundImage: "url('/backgrounds/bg-gold.webp')",
+        backgroundImage: "url('/backgrounds/bg-gold-n.jpg')",
       }}
     >
       {/* Subtle Warm Vignette */}
@@ -63,7 +63,7 @@ const AboutSection = () => {
 
             {/* Paper Micro-Grain Noise (Neutral) */}
             <div
-              className="absolute inset-0 bg-repeat opacity-50  pointer-events-none z-0"
+              className="absolute inset-0 bg-repeat opacity-20 pointer-events-none z-0"
               style={{
                 backgroundImage: "url('/backgrounds/noise-texture.svg')",
               }}

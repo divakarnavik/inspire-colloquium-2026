@@ -46,7 +46,7 @@ const InstitutionSection = () => {
                     {/* Background */}
                     <div
                       className="absolute inset-0 opacity-40 bg-cover bg-center brightness-105"
-                      style={{ backgroundImage: `url('/backgrounds/bg-maroon.webp')` }}
+                      style={{ backgroundImage: `url('/backgrounds/bg-maroon-n.jpg')` }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20 pointer-events-none z-10" />
 

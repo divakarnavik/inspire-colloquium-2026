@@ -142,12 +142,12 @@ const WhoCanParticipateSection = () => {
       id="eligibility"
       className="py-12 md:py-24 relative overflow-hidden bg-cover bg-center bg-scroll md:bg-fixed border-t border-b border-teal-950/20 w-full min-h-[90vh] flex flex-col justify-center"
       style={{
-        backgroundImage: "url('/backgrounds/bg-saffron.webp')",
+        backgroundImage: "url('/backgrounds/bg-saffron-n.jpg')",
       }}
     >
       {/* Tactile Fine Grain Texture Overlay */}
       <div
-        className="absolute inset-0 pointer-events-none  opacity-40 z-0"
+        className="absolute inset-0 pointer-events-none opacity-20 z-0"
         style={{
           backgroundImage: "url('/backgrounds/noise-texture.svg')",
           backgroundRepeat: 'repeat',

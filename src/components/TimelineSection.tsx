@@ -171,7 +171,7 @@ const TimelineSection = () => {
       id="schedule"
       className="relative z-10 flex w-full flex-col items-center overflow-x-clip bg-cover bg-center bg-no-repeat border-b border-orange-900/15 text-brand-navy scroll-mt-[65px] px-5 pt-[10vh] pb-16 sm:px-[6vw] sm:pt-[14vh] sm:pb-24 lg:pb-36 xl:pb-40 bg-[#FAF6EE]"
       style={{
-        backgroundImage: "url('/backgrounds/bg-lemon-yellow.webp')",
+        backgroundImage: "url('/backgrounds/bg-lemon-yellow-n.jpg')",
         backgroundAttachment: isMobile ? 'scroll' : 'fixed',
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -180,7 +180,7 @@ const TimelineSection = () => {
     >
       {/* Tactile Fine Grain Texture Overlay */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-50 z-0"
+        className="absolute inset-0 pointer-events-none opacity-20 z-0"
         style={{
           backgroundImage: "url('/backgrounds/noise-texture.svg')",
           backgroundRepeat: 'repeat',

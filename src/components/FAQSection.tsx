@@ -92,12 +92,12 @@ const FAQSection = () => {
       id="faq"
       className="py-16 md:py-24 relative overflow-hidden bg-cover bg-center bg-scroll md:bg-fixed border-t border-b border-indigo-950/30 text-white scroll-mt-[65px] w-full max-w-full min-h-[calc(100vh-65px)] flex flex-col justify-center"
       style={{
-        backgroundImage: "url('/backgrounds/bg-purple.webp')",
+        backgroundImage: "url('/backgrounds/bg-purple-n.jpg')",
       }}
     >
       {/* Tactile Fine Grain Texture Overlay */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-30 z-0"
+        className="absolute inset-0 pointer-events-none opacity-15 z-0"
         style={{
           backgroundImage: "url('/backgrounds/noise-texture.svg')",
           backgroundRepeat: 'repeat',
